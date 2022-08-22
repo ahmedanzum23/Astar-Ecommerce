@@ -25,7 +25,7 @@ const About = () => {
                     <input onClick={handleSubmit} className='form-submit' type="submit" value="Submit"  required/>
                 </form>
 
-                <p>Contact Information: dundermufflin@gmail.com</p>
+                <p>Contact Information: anzum@gmail.com</p>
                 <p>Emergency Services: 01999999999,01888888888 </p>
         </div>
 
