@@ -1,13 +1,11 @@
-/* td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-   */
+body{
+    font-family: 'EB Garamond', serif;
+}
 
 
 
-   .s{
+
+.s{
     padding-left: 130px;
 }
 
@@ -187,3 +185,52 @@ footer{
     font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+
+
+/* media queries */
+
+/* media queries for mobile devices */
+
+@media only screen and (max-width:688px){
+    .popular-collection{
+       
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+
+    .part-1{
+        grid-template-columns: repeat(1,1fr);
+        width: 10%;
+    }
+
+    .bonus{
+        grid-template-columns:repeat(1,1fr) ;
+        
+       width: 1rem;
+        
+    } 
+
+    .end{
+        width: 70%;
+    }
+
+    /* .photo-album-2{
+        grid-template-columns: repeat(1,1fr);
+    } */
+}
+
+
+/* for tabs */
+@media only screen and (min-width:688px) and (max-width:992px){
+
+    .popular-collection{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .anchor{
+        display: none;
+    }
+}
+
+   
