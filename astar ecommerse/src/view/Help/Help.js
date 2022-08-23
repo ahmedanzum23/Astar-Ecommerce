@@ -33,7 +33,7 @@ const Help = () => {
 <header>
         <main>
 
-            <h3 class="s">Influencer products</h3>
+            <h3 class="s">Discount Local products</h3>
 
             {/* <!-- part-1 --> */}
             <section class="part-1">
