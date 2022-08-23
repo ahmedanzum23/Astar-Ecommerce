@@ -20,7 +20,7 @@ const Header = () => {
                 <input type="text" name="search" placeholder='search'/>
                 <Link to="/shop">Shop</Link>
                 <Link to="/orders">Orders</Link>
-                <Link to="/help">Help?</Link>
+                <Link to="/Help?">Help?</Link>
                 <Link to="/about">About</Link>
                 {
                     user ?
