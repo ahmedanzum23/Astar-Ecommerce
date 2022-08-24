@@ -3,7 +3,20 @@ import axios from 'axios'
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 
+
+
+    
+
+
+
+
+
 const Shipment = () => {
+     
+    const handleSubmit = () => {
+        alert('submitted');
+    }
+
     const [user] = useAuthState(auth);
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -55,6 +68,7 @@ const Shipment = () => {
                     </div>
                     <p style={{color: 'red'}}>{error}</p>
                     <input className='form-submit' type="submit" value="Add Shipping"  required/>
+                    <input onClick={handleSubmit} className='form-submit' type="submit" value="Submit"  required/>
                 </form>
                 
             </div>
