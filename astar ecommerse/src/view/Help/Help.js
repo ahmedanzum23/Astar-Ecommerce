@@ -39,8 +39,8 @@ const Help = () => {
             <section class="part-1">
 
                 <div class="big-camera">
-                    <h1>Start your Journey as </h1>
-                    <h1>Influencer</h1>
+                    <h1>Special Cupon based on rating </h1>
+                    <h1>Camera</h1>
                     <p>Number-1 camera in the world , you must need to buy it before stock out</p>
                     <a class="anchor-button" target="_blank" href="https://www.facebook.com/">Press Here <span><i
                                 class="fas fa-hand-pointer"></i></span> </a>

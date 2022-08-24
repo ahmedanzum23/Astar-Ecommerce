@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css'
+
 const About = () => {
     const handleSubmit = () => {
         alert('submitted');
@@ -27,9 +28,29 @@ const About = () => {
 
                 <p>Contact Information: anzum@gmail.com</p>
                 <p>Emergency Services: 01999999999,01888888888 </p>
-        </div>
 
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
     );
 };
 
